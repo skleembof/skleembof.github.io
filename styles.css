@@ -1,0 +1,62 @@
+body{
+	background-image: url("./images/background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#b{
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	background-color: whitesmoke;
+	box-shadow: 0px 0px 15px 6px;
+	color: whitesmoke;
+
+}
+#c{
+	display: block;
+
+	transform: translateY(-300px);
+	margin: auto;
+	width: 90%;
+	height: 200px;
+	box-shadow: 0px 6px 6px 6px;
+	color: silver;
+
+	background-color: silver;
+	mix-blend-mode: hard-light;
+
+	animation-name: title;
+	animation-duration: 4s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+#d{
+	text-align: center;
+}
+label{
+	margin: 10px;
+}
+#field{
+	margin: auto;
+	width: 50%;
+}
+form{
+	display: inline-block;
+	text-align: center;
+	color: black;
+}
+
+p{
+	color: black;
+	text-align: center;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 20px;
+
+}
+@keyframes title{
+	from{transform: translateY(-500px);}
+	to {transform: translateY(calc(20vh));}
+
+}
